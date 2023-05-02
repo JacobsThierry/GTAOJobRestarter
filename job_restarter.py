@@ -11,6 +11,9 @@ pattern = cv2.imread(os.path.join(os.getcwd(), "./pattern.png"))
 
 time_offset = 0
 
+upButton = "w"
+downButton = "s"
+
 
 def waitOnPress(key):
     pass
