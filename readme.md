@@ -27,7 +27,7 @@ If you're facing this problem, you can replace the 0 in `time_offset = 0` at the
 
 ### The script is not working for x job
 
-The script is looking for pattern.png. However, some clouds pattern in certain jobs may prevent the script from recognizing the prompt. To prevent this from happening, you can take a new screenshot, crop it so it look like `pattern.png` and replace the said image.
+The script is looking for pattern.png. However, some clouds pattern in certain jobs may prevent the script from recognizing the prompt. To prevent this from happening, you can take a new screenshot, crop it so it look like `pattern.png` (you don't need to be very precise) and replace the said image.
 
 ## How It Works
 
