@@ -33,6 +33,8 @@ The script is looking for pattern.png. However, some clouds pattern in certain j
 
 The script takes a screenshot regulary and check if `pattern.png` is on screen. If so, it will start a serie of inputs to restart the job. Otherwise, it will press `ctrl` two times to prevent you from beeing kicked.
 
+The script is also generating a log file so that you can monitor how long each job lasted.
+
 ## Disclaimer
 
 This script is provided as-is and comes with no warranty or guarantee. Use at your own risk.
