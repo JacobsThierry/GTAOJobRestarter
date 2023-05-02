@@ -50,10 +50,6 @@ def wait():
         listener.join()
 
 
-def crop(img, pos, size):
-    return img[pos[1] : pos[1] + size[1], pos[0] : (pos[0] + size[0])]
-
-
 def afkStep():
     k = keyboard.Controller()
     k.press(keyboard.Key.ctrl_l)
