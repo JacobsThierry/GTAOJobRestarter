@@ -29,6 +29,10 @@ If you're facing this problem, you can replace the 0 in `time_offset = 0` at the
 
 The script is looking for pattern.png. However, some clouds pattern in certain jobs may prevent the script from recognizing the prompt. To prevent this from happening, you can take a new screenshot, crop it so it look like `pattern.png` (you don't need to be very precise) and replace the said image.
 
+### I don't have a qwerty keyboard
+
+This script is assuming you're using a qwerty keyboard, with `w` as up and `s` as down. To change that, you can change `upButton = "w"` and `downButton = "s"` at the begining of the script.
+
 ## How It Works
 
 The script takes a screenshot regulary and check if `pattern.png` is on screen. If so, it will start a serie of inputs to restart the job. Otherwise, it will press `ctrl` two times to prevent you from beeing kicked.
