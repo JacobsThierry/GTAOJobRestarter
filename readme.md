@@ -33,6 +33,10 @@ The script is looking for pattern.png. However, some clouds pattern in certain j
 
 This script is assuming you're using a qwerty keyboard, with `w` as up and `s` as down. To change that, you can change `upButton = "w"` and `downButton = "s"` at the begining of the script.
 
+### My game is not running at 1920x1080
+
+Since the script is looking for an exact match of `pattern.png`, having the game running at a lower or higher resolution will not work. This can be worked arround by matching the image resolution and the game resolution
+
 ## How It Works
 
 The script takes a screenshot regulary and check if `pattern.png` is on screen. If so, it will start a serie of inputs to restart the job. Otherwise, it will press `ctrl` two times to prevent you from beeing kicked.
