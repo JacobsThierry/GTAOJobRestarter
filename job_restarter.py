@@ -110,9 +110,9 @@ def loop():
 
             time_started = time.time()
 
-            confirmMenu1()
+            confirmMenu()
             time.sleep(2 + time_offset)
-            confirmMenu1()
+            confirmMenu()
 
             time.sleep(0.1)
 
@@ -138,7 +138,7 @@ def loop():
         time.sleep(5)
 
 
-def confirmMenu1():
+def confirmMenu():
     global stop
 
     if stop:
@@ -190,5 +190,3 @@ def isPatternThere(template, img):
 stop = False
 wait()
 loop()
-
-# confirmMenu1()
