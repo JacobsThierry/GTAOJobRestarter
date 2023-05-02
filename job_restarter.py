@@ -7,7 +7,7 @@ import numpy as np
 import os
 from datetime import datetime
 
-pattern = cv2.imread(os.path.join(os.getcwd(), "./pattern2.png"))
+pattern = cv2.imread(os.path.join(os.getcwd(), "./pattern.png"))
 
 
 def waitOnPress(key):
