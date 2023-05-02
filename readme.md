@@ -11,7 +11,7 @@ This script is designed to automatically restart a job in GTA Online after it fi
 
 ## Usage
 
-1. Clone this repository to your local machine or download the script.
+1. Clone this repository to your local machine or [download the latest release](https://github.com/JacobsThierry/GTAOJobRestarter/releases/tag/v1.0.0).
 2. Install the requirements by running `pip install requirements.txt` in your command prompt/terminal.
 3. Navigate to the directory containing the script in your command prompt/terminal.
 4. Start the script by running `python job_restarter.py`, start your AFK job and press `space`.
