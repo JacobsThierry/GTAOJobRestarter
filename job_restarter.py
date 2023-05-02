@@ -9,6 +9,8 @@ from datetime import datetime
 
 pattern = cv2.imread(os.path.join(os.getcwd(), "./pattern.png"))
 
+time_offset = 0
+
 
 def waitOnPress(key):
     pass
@@ -97,7 +99,7 @@ def loop():
 
             clickRestart()
 
-            time.sleep(20)
+            time.sleep(20 + time_offset)
 
             if stop:
                 return
@@ -113,7 +115,7 @@ def loop():
             time_started = time.time()
 
             confirmMenu1()
-            time.sleep(2)
+            time.sleep(2 + time_offset)
             confirmMenu1()
 
             time.sleep(0.1)
