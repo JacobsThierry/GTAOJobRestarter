@@ -23,7 +23,7 @@ A few issues can occure when using this script.
 
 ### The script is trying to restart the job but does it too quickly
 
-If you're facing this problem, you can replace the 0 in `time_offset = 0` at the begining of the file. This will slow down the restarting process.
+If you're facing this problem, you can replace the 0 in `time_offset = 0` at the begining of the file. This will slow down the restarting process by 2x the ammount you entered, in seconds.
 
 ### The script is not working for x job
 
