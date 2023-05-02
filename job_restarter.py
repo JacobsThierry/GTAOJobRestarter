@@ -150,7 +150,7 @@ def confirmMenu():
     k = keyboard.Controller()
     time.sleep(0.2)
 
-    k.press("z")
+    k.press(upButton)
     time.sleep(0.1)
     k.release("z")
     time.sleep(0.1)
@@ -163,15 +163,15 @@ def confirmMenu():
 def clickRestart():
     k = keyboard.Controller()
 
-    k.press("s")
+    k.press(downButton)
     time.sleep(0.1)
-    k.release("s")
+    k.release(downButton)
 
     time.sleep(0.1)
 
-    k.press("s")
+    k.press(downButton)
     time.sleep(0.1)
-    k.release("s")
+    k.release(downButton)
 
     time.sleep(0.1)
 
