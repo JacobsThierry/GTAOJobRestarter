@@ -1,3 +1,5 @@
 .unused/*
 .vscode/*
 log.txt
+*.zip
+*.rar
